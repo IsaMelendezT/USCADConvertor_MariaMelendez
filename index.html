@@ -1,0 +1,69 @@
+ <!--Author: Maria Isabel Melendez Torres-->
+<!-- St ID: C0905338-->
+<!Doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>home</title>
+    <link href="./CSS/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c5017c04fb.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+  </head>
+  
+  
+  <body>
+    <!-- header will contain name-->
+    <header>
+        <h1>US Dollar to Canadian Dollar</h1>
+        <h2>Convert USD to CAD at the real exchange rate</h2>
+    </header>
+
+    <main>
+
+        <div id="Convertor">
+            <div id="Currency1">
+                <label for="amount">Amount:</label>
+                <div id="Initial">
+                    <input type="number" id="amount" required>
+                    <img src="./media/img/US.png" alt="USA Flag" width="70em" height="30vh">
+                    <select name="InitialCurrency" id="ICurrency">
+                        <option value="USD">USD</option>
+                        <option value="CAD">CAD</option>
+                    </select>
+                </div>
+
+            </div>
+            
+            <div id="Arrows">
+                <button><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+            </div>
+
+            <div id="Currency2">
+                <label for="Finalamount">Convert To:</label>
+                <div id="Final">
+                    <input type="number" id="Finalamount" required>
+                    <img src="./media/img/CAD.png" alt="Canada Flag" width="70em" height="30vh">
+                    <select name="FinalCurrency" id="FCurrency">
+                        <option value="CAD">CAD</option>
+                        <option value="USD">USD</option>
+                    </select>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+        <div id="ConvertBtn">
+            <button id="Convert">Convert</button>
+        </div>
+
+    </main>
+
+  </body>
+
+  
+</html>
