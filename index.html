@@ -14,20 +14,21 @@
   
   
   <body>
-    <!-- header will contain name-->
+    <!-- header for the main titles of the page-->
     <header>
         <h1>US Dollar to Canadian Dollar</h1>
         <h2>Convert USD to CAD at the real exchange rate</h2>
     </header>
 
     <main>
-
+        <!-- Container for all the elements related to the conversion-->
         <div id="Convertor">
+            <!-- Container for the inital values and currencies-->
             <div id="Currency1">
                 <label for="amount">Amount:</label>
                 <div id="Initial">
                     <input type="number" id="amount" required>
-                    <img src="./media/img/US.png" alt="USA Flag" width="70em" height="30vh">
+                    <img src="./media/img/US.png" alt="USA Flag" width="70" height="30">
                     <select name="InitialCurrency" id="ICurrency">
                         <option value="USD">USD</option>
                         <option value="CAD">CAD</option>
@@ -36,15 +37,17 @@
 
             </div>
             
+            <!-- Container for the interchange button-->
             <div id="Arrows">
                 <button><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
             </div>
 
+            <!-- Container for the final values and currencies-->
             <div id="Currency2">
                 <label for="Finalamount">Convert To:</label>
                 <div id="Final">
                     <input type="number" id="Finalamount" required>
-                    <img src="./media/img/CAD.png" alt="Canada Flag" width="70em" height="30vh">
+                    <img src="./media/img/CAD.png" alt="Canada Flag" width="70" height="30">
                     <select name="FinalCurrency" id="FCurrency">
                         <option value="CAD">CAD</option>
                         <option value="USD">USD</option>
@@ -52,11 +55,9 @@
                 </div>
 
             </div>
-
-
-
         </div>
 
+        <!-- Container for the Convert Button-->
         <div id="ConvertBtn">
             <button id="Convert">Convert</button>
         </div>
@@ -64,6 +65,4 @@
     </main>
 
   </body>
-
-  
 </html>
