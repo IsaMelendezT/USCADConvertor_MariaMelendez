@@ -1,0 +1,89 @@
+/* Styling header alignment, background and text color*/
+header {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(23,111,176);
+    color: white;
+    border: 2px solid black;
+}
+
+/*Styling main element*/
+main{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Styling input Labels*/
+label {
+    display: block;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+/*Styling convertor container*/
+#Convertor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Styling currency1 and currency2 container*/
+#Currency1, #Currency2 {
+    flex: 1;
+    text-align: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+/*Styling inputs background and border*/
+#Initial, #Final{
+    background-color: lightgray;
+}
+
+input {
+    border: none;
+    background: transparent;
+    line-height: 2.5em;
+    width: 15em;
+    text-align: center;
+}
+
+/*Styling select elements*/
+select {
+    width: 4em;
+    height: 2.5em;
+    border: none;
+    background: transparent;
+}
+
+/*Styling buttons*/
+#Arrows {
+    display: flex;
+    justify-content: center; 
+}
+
+#Arrows button {
+    background-color: transparent;
+    border: none;
+    font-size: 2.5em; 
+    cursor: pointer; 
+}
+
+#ConvertBtn {
+    flex: 1;
+    text-align: center; 
+    margin-top: 1.2em;
+}
+
+#Convert {
+    cursor: pointer;
+    padding: 0.5em 1.2em;
+    border-radius: 5em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(23,111,176);
+    color: white;
+}
+
+#Convert:hover {
+    background-color: white;
+    color: rgb(23,111,176)
+}
